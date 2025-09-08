@@ -290,10 +290,10 @@ const About = () => {
 {/* ---------------- backend skill */}
               <div className="w-[500px] h-[600px] mt-[400px] lg:mt-[80px]   gap-[30px] ">
                 <div className="flex ml-[60px] lg:justify-end mb-[30px]"> <h2 className="w-[234px]  text-[20px] font-medium font-main text-[#F0F0F0] border-[#009e66] border-b pb-[5px]">Backend Development</h2></div>
-                <div  data-aos="fade-left" className=" flex justify-center items-center gap-[30px] h-[560px] bg-[#161616]">
+                <div  data-aos="fade-left" className=" flex justify-center items-center gap-[30px] h-[610px] bg-[#161616]">
 
                   <div className=" pr-[136px] lg:pr-0 flex flex-col justify-center items-center" >
-                  <h1 className="text-[36px] font-bold font-main text-white">Learning</h1>
+                  <h2 className="text-[36px] font-bold font-main text-white">Learning</h2>
                   <h2 className=" text-[20px] font-medium font-main text-[#F0F0F0] pb-[5px]">Backend Development</h2>
                   </div>
                 </div>
@@ -447,14 +447,6 @@ const About = () => {
                   </div>
                 </div>
                 </div>
-                
-
-
-
-
-
-
-
               </div>
             </div>
           </div>

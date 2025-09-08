@@ -19,7 +19,7 @@ const Banner = () => {
       {/* ----------- icons */}
       <div className="flex flex-col absolute top-[560px] right-[60px] gap-4  ">
         <a
-          data-aos="fade-down"
+   
           className="w-8 h-8 bg-black text-white flex justify-center items-center rounded-full hover:bg-[#A53DFF] transition-colors"
           href="https://www.facebook.com/antor.web.dev"
           aria-label="Facebook"
@@ -27,7 +27,7 @@ const Banner = () => {
           <FaFacebookF />
         </a>
         <a
-          data-aos="fade-left"
+   
           className="w-8 h-8 bg-black text-white flex justify-center items-center rounded-full hover:bg-[#A53DFF] transition-colors"
           href="https://www.instagram.com/antor_web_dev/"
           aria-label="Instagram"
@@ -35,7 +35,7 @@ const Banner = () => {
           <FaInstagram />
         </a>
         <a
-          data-aos="fade-up"
+    
           className="w-8 h-8 bg-black text-white flex justify-center items-center rounded-full hover:bg-[#A53DFF] transition-colors"
           href="https://www.linkedin.com/in/antor94/"
           aria-label="LinkedIn"
@@ -54,11 +54,15 @@ const Banner = () => {
       <div className="container ">
         <div id="banner-row" className="flex justify-around items-center">
           {/*------------ Left Content */}
-          <div className="flex flex-col">
+          <div  className="flex flex-col">
 
        
-            Hi, I am
+           <p className="text-[18px] font-medium font-main text-[#ffffff93]"> Hi, I am</p>
 
+  <div>
+    <h1 class="type">Antor Karmoker</h1>
+  </div>
+            
             {/* ----------- card loading */}
             <div class="card">
               <div class="loader">
@@ -74,17 +78,14 @@ const Banner = () => {
                 </div>
               </div>
             </div>
-            {/* <!-- From Uiverse.io by Masoodaykhan -->  */}
-
-
           </div>
           {/* Right Image */}
           <div
-            data-aos="zoom-out-left"
+         
             className="w-[450px] h-[450px] flex justify-center items-center relative rounded-full bg-[#ffffffdf]  overflow-hidden"
           >
             <img
-              data-aos="zoom-out-left"
+
               className=" "
               src={banner2}
               alt="Antor Karmaker portrait"

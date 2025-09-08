@@ -17,8 +17,6 @@ const Navbar = () => {
         
     <div>
 
-
-      {/* <button className="cursor-target">Click me!</button> */}
       <div className="cursor-target">
                 <ul className="hidden md:flex gap-8 items-center">
 
@@ -29,7 +27,6 @@ const Navbar = () => {
 
         </ul>
       </div>
-
     </div>
       </div>
         </div>
