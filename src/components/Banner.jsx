@@ -2,10 +2,8 @@ import React, { useEffect, useRef } from "react";
 import banner3 from "../assets/images/banner3.png";
 import banner2 from "../assets/images/banner2.png";
 import {
-  FaFacebook,
   FaInstagram,
   FaLinkedinIn,
-  FaTwitter,
 } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { TbBrandGithub } from "react-icons/tb";
@@ -14,7 +12,7 @@ const Banner = () => {
   return (
     <section
       id="banner"
-      className="relative overflow-hidden  pt-[150px] h-screen bg-[#101010]"
+      className="relative overflow-hidden  pt-[150px] min-h-screen bg-[#101010]"
     >
       {/* ----------- icons */}
       <div className="flex flex-col absolute top-[560px] right-[60px] gap-4  ">
@@ -50,20 +48,13 @@ const Banner = () => {
           <TbBrandGithub />
         </a>
       </div>
-
       <div className="container ">
         <div id="banner-row" className="flex justify-around items-center">
           {/*------------ Left Content */}
           <div  className="flex flex-col">
-
-       
            <p className="text-[18px] font-medium font-main text-[#ffffff93]"> Hi, I am</p>
-
-  <div>
-    <h1 class="type">Antor Karmoker</h1>
-  </div>
-            
-            {/* ----------- card loading */}
+  <div> <h1 class="type">Antor Karmoker</h1></div>     
+           {/* ----------- card loading */}
             <div class="card">
               <div class="loader">
                 <p className="text-[32px] font-normal font-main text-[#f0f0f0]">
@@ -82,11 +73,10 @@ const Banner = () => {
           {/* Right Image */}
           <div
          
-            className="w-[450px] h-[450px] flex justify-center items-center relative rounded-full bg-[#ffffffdf]  overflow-hidden"
+            className="w-[450px] h-[450px]  relative rounded-full bg-[#ffffff51]  overflow-hidden"
           >
             <img
-
-              className=" "
+              className=" absolute top-[-86px] left-[38px] "
               src={banner2}
               alt="Antor Karmaker portrait"
             />
