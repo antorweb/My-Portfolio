@@ -30,12 +30,12 @@ return (
       <div className=' absolute top-[30px] right-[60px]'>  <Link to={'/'}> <RxCross1 className='text-[30px] text-white' />  </Link>  </div>
 
 {/* ----------- list items */}
-      <div className="mt-[100px]">
-        <ul  className="flex  items-center justify-center gap-[30px]">
-          <li className="text-[15px] font-normal font-main text-[#fff] hover:border-b pb-[5px] hover:text-green-300  duration-[.4s]"><Link to={'/'} >E-commerce (multiple page)</Link></li>
-          <li className="text-[15px] font-normal font-main text-[#fff] hover:border-b pb-[5px] hover:text-green-300 duration-[.4s] "><Link to={'/'} >Firebase</Link></li>
-          <li className="text-[15px] font-normal font-main text-[#fff] hover:border-b pb-[5px] hover:text-green-300 duration-[.4s] "><Link to={'/'} >Javascript</Link></li>
-          <li className="text-[15px] font-normal font-main text-[#fff] hover:border-b pb-[5px] hover:text-green-300 duration-[.4s]"><Link to={'/'} >Landing (single) page</Link></li>
+      <div className=" lg:mt-[100px]">
+        <ul  className=" lg:flex flex-wrap  items-center justify-center gap-[30px]">
+          <li className="w-[230px]  text-[15px] font-normal font-main text-[#fff] hover:border-b pb-[5px] hover:text-green-300  duration-[.4s]"><Link to={'/'} >E-commerce (multiple page)</Link></li>
+          <li className="w-[230px] text-[15px] font-normal font-main text-[#fff] hover:border-b pb-[5px] hover:text-green-300 duration-[.4s] "><Link to={'/'} >Firebase</Link></li>
+          <li className="w-[230px] text-[15px] font-normal font-main text-[#fff] hover:border-b pb-[5px] hover:text-green-300 duration-[.4s] "><Link to={'/'} >Javascript</Link></li>
+          <li className="w-[230px] text-[15px] font-normal font-main text-[#fff] hover:border-b pb-[5px] hover:text-green-300 duration-[.4s]"><Link to={'/'} >Landing (single) page</Link></li>
         </ul>
       </div>
 {/* ------------------ portfolio part */}

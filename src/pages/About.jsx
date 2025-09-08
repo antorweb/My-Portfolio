@@ -298,12 +298,13 @@ const About = () => {
 {/* ---------------- backend skill */}
               <div className="w-[500px] h-[600px] mt-[80px]   gap-[30px] ">
                 <div className="flex justify-end mb-[30px]"> <h2 className="w-[234px]  text-[20px] font-medium font-main text-[#F0F0F0] border-[#009e66] border-b pb-[5px]">Backend Development</h2></div>
-                <div className="flex  flex-wrap gap-[30px] h-[560px] bg-[#161616]">
+                <div className=" flex justify-center items-center gap-[30px] h-[560px] bg-[#161616]">
 
-                  <h1>Learning</h1>
+                  <div className=" flex flex-col justify-center items-center" >
+                  <h1 className="text-[36px] font-bold font-main text-white">Learning</h1>
+                  <h2 className=" text-[20px] font-medium font-main text-[#F0F0F0] pb-[5px]">Backend Development</h2>
 
-              <h2 className=" text-[20px] font-medium font-main text-[#F0F0F0] pb-[5px]">Backend Development</h2>
-
+                  </div>
 
 
 
