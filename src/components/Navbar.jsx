@@ -41,7 +41,7 @@ const Navbar = () => {
             </div>
             <div className="cursor-target">
               {/* Desktop Menu */}
-              <ul className="hidden md:flex gap-8 bg-amber-50 items-center">
+              <ul className="hidden md:flex gap-8  items-center">
                 <li>
                   <Link
                     to="/about"
