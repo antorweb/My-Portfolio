@@ -52,7 +52,7 @@ const Banner = () => {
             />
           </div>
           {/*------------ Left Content */}
-          <div className="flex flex-col pt-6 md:pt-[50px] items-center lg:items-start text-center lg:text-left w-full max-w-xl">
+          <div className="flex flex-col mt-[100px]  items-center lg:items-start text-center lg:text-left w-full max-w-xl">
             <p className="text-[16px] md:text-[18px] font-medium font-main text-[#ffffff93]">Hi, I am</p>
             <div>
               <h1 className="type text-[22px] sm:text-[26px] md:text-[32px] lg:text-[60px] font-bold">Antor Karmoker</h1>
