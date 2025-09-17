@@ -9,7 +9,7 @@ const Banner = () => {
   return (
     <section
       id="banner"
-      className="relative overflow-hidden pt-[50px] lg:pt-[150px] min-h-screen bg-[#101010]">
+      className="relative overflow-hidden pt-[90px] lg:pt-[150px] min-h-screen bg-[#101010]">
       {/* ----------- icons */}
       <div className="flex lg:flex-col absolute top-[92%] right-4 lg:top-[65%] lg:right-18  gap-4 z-10">
         <a
@@ -52,7 +52,7 @@ const Banner = () => {
             />
           </div>
           {/*------------ Left Content */}
-          <div className="flex flex-col mt-[100px]  items-center lg:items-start text-center lg:text-left w-full max-w-xl">
+          <div className="flex flex-col   items-center lg:items-start text-center lg:text-left w-full max-w-xl">
             <p className="text-[16px] md:text-[18px] font-medium font-main text-[#ffffff93]">Hi, I am</p>
             <div>
               <h1 className="type text-[22px] sm:text-[26px] md:text-[32px] lg:text-[60px] font-bold">Antor Karmoker</h1>
