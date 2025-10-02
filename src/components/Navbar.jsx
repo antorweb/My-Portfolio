@@ -9,22 +9,15 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
 
+
   return (
     <>
-    <header>
-  <nav id="desktop-nav">
-    <ul>
-      <li class="active"><a href="#home" class="page-scroll">Home</a></li>
-      <li><a href="#about" class="page-scroll">About Us</a></li>
-      <li><a href="#portfolio" class="page-scroll">Showcase</a></li>
-      <li><a href="#contact" class="page-scroll">Contact Us</a></li>
-    </ul>
-  </nav>
-</header>
-<section id="home"></section>
-<section id="about"></section>
-<section id="portfolio"></section>
-<section id="contact"></section>
+        <nav>
+            <a href="#section1" class="active">Link to section 1</a>
+            <a href="#section2">Link to section 2</a>
+            <a href="#section3">Link to section 3</a>
+            <a href="#section4">Link to section 4</a>
+        </nav>
 
     
     {/* <nav id="navbar" className="bg-[#101010] sticky top-0 z-50">
