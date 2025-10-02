@@ -199,3 +199,54 @@ h1 {
 }
 
 
+
+
+html, body { margin: 0; padding: 0; }
+header {
+	position: fixed;
+	width: 100%;
+	background-color: rgba(0,0,0,0.6);
+}
+#desktop-nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+#desktop-nav ul li {
+	display: inline-block;
+	width: 150px;
+	padding: 20px 0;
+	text-align: center;
+}
+#desktop-nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#desktop-nav ul li a:hover {
+	color: red;
+}
+#desktop-nav ul li.active a {
+	color: red;
+}
+#home {
+	width: 100%;
+	height: 100vh;
+	background-color: yellow;
+}
+#about {
+	width: 100%;
+	height: 100vh;
+	background-color: purple;
+}
+#portfolio {
+	width: 100%;
+	height: 100vh;
+	background-color: green;
+}
+#contact {
+	width: 100%;
+	height: 100vh;
+	background-color: orange;
+}
