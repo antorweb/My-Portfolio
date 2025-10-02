@@ -8,16 +8,55 @@ const Navbar = () => {
 
   const [isOpen, setIsOpen] = useState(false);
 
+/*
+ * slide-nav
+ * ES6 Vanilla.js navigation plugin to simple use on one-page websites.
+ * https://github.com/qmixi/slide-nav
+ *
+ * A project by Piotr Kumorek
+ * Released under the MIT license.
+*/
 
+window.slide = new SlideNav();
 
   return (
     <>
-        <nav>
-            <a href="#section1" class="active">Link to section 1</a>
-            <a href="#section2">Link to section 2</a>
-            <a href="#section3">Link to section 3</a>
-            <a href="#section4">Link to section 4</a>
-        </nav>
+
+    
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+   
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+
 
     
     {/* <nav id="navbar" className="bg-[#101010] sticky top-0 z-50">
