@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logo from "../assets/images/remeni logo.png";
 import { Link } from "react-router";
+import $ from 'jquery';
 
 const Navbar = () => {
   // Responsive state for mobile menu
