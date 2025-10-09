@@ -467,7 +467,7 @@ const About = () => {
                                     <div data-aos="flip-down" className="text-center ">
                     <img
                       className="w-[50px] text-center"
-                      src={fnt23}
+                      src={fnt24}
                       alt="logo"
                     />
                     <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">

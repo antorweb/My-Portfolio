@@ -56,7 +56,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    to="/portfolio"
+                    to="#portfolio"
                     className="text-[20px] font-normal font-main text-[#E6E6E6]"
                   >
                     Portfolio
