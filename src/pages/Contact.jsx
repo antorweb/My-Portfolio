@@ -137,7 +137,7 @@ const Contact = () => {
                     Email Me
                   </h3>
                   <a
-                    href="#"
+                    href=""
                     className="text-[14px] hover:text-[#797979] font-normal font-main text-[#9F9F9F]"
                   >
                     antorremeni@gmail.com
