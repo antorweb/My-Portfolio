@@ -102,13 +102,13 @@ const About = () => {
                   {/* ------------ address part */}
                   <address>
                     <div className="pt-[30px] pb-[40px]">
-                      <div className=" pl-[30px] lg:pl-0  gap-[40px] lg:flex  lg:gap-[180px]">
+                      <div className=" pl-[30px] lg:pl-0  gap-[40px] lg:flex  lg:gap-[107px]">
                         <div className=" flex gap-[10px]">
                           <h3 className="text-[15px] font-normal font-main text-[#DADADA]">
                             Name:
                           </h3>
                           <p className="text-[15px] font-normal font-main text-[#9F9F9F]">
-                            Antor
+                            Antor web-Dev
                           </p>
                         </div>
                         <div className="pt-[30px] lg:pt-0 flex  gap-[10px]">
