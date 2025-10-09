@@ -124,7 +124,7 @@ const Contact = () => {
                     Call Me
                   </h3>
                   <p className="text-[14px] font-normal font-main text-[#9F9F9F]">
-                    +880-017-687-80954
+                    +880-176-687-80954
                   </p>
                 </div>
               </div>
