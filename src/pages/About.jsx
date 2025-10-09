@@ -227,8 +227,7 @@ const About = () => {
                               <div data-aos="flip-left" className="text-center ">
                   <img className="w-[50px] text-center" src={fnt10} alt="logo" />
                   <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">GitLab</p>
-                </div>
-                      
+                </div>                  
                       
                               <div data-aos="flip-left" className="text-center ">
                   <img className="w-[50px] text-center" src={fnt12} alt="logo" />
@@ -293,7 +292,7 @@ const About = () => {
 
                   <div className=" pr-[136px] lg:pr-0 flex flex-col justify-center items-center" >
                   <h2 className="text-[36px] font-bold font-main text-white">Learning</h2>
-                  <h2 className=" text-[20px] font-medium font-main text-[#F0F0F0] pb-[5px]">Backend Development</h2>
+                  <h2 className=" text-[20px] font-medium font-main text-[#F0F0F0] pb-[5px]">Backend Development with Node.js</h2>
                   </div>
                 </div>
               </div>
