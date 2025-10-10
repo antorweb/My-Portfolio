@@ -203,6 +203,9 @@ const About = () => {
               />
             </div>
 
+
+            {/* --------------- skill part */}
+
             <div
               data-aos="fade-up"
               className=" lg:flex justify-center items-center gap-[40px]"
@@ -527,7 +530,7 @@ const About = () => {
                     </div>
                     <div className="mb-[30px]">
                       <h3 className="text-[26px] font-bold font-main text-[#F0F0F0]">
-                        Standard
+                        Basic
                       </h3>
                       <h2 className="text-[24px] pt-[10px] font-light font-main text-[#F0F0F0]">
                         $19/month
