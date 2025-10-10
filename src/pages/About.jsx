@@ -588,10 +588,10 @@ const About = () => {
                     <div>
                       <ul className="flex flex-col gap-[20px]">
                         <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
-                          Mobile App Design
+                        4-day delivery
                         </li>
                         <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
-                          Responsive Design
+                      1 page
                         </li>
                         <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
                           Database Development
