@@ -639,10 +639,10 @@ const About = () => {
                          6-day delivery
                         </li>
                         <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
-                          Responsive Design
+                          Multiple Page
                         </li>
                         <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
-                          Database Development
+                          Responsive Design
                         </li>
                         <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
                           Unlimited Revision
