@@ -625,7 +625,7 @@ const About = () => {
                     </div>
                     <div className="mb-[30px]">
                       <h3 className="text-[26px] font-bold font-main text-[#F0F0F0]">
-                        Standard
+                        Premium
                       </h3>
                       <h2 className="text-[24px] pt-[10px] font-light font-main text-[#F0F0F0]">
                         $19/month
