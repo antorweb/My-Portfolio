@@ -533,25 +533,29 @@ const About = () => {
                         Basic
                       </h3>
                       <h2 className="text-[24px] pt-[10px] font-light font-main text-[#F0F0F0]">
-                        $19/month
+                        $25/month
                       </h2>
                     </div>
                     <div>
                       <ul className="flex flex-col gap-[20px]">
                         <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
-                          Mobile App Design
+                        1 page
                         </li>
                         <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
-                          Responsive Design
+                       Design customization
+
                         </li>
                         <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
-                          Database Development
+                        2-day delivery
                         </li>
                         <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
-                          Web Design
+                        Responsive design
                         </li>
                         <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
                           24/7 Support
+                        </li>
+                             <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
+                          Unlimited Revision
                         </li>
                       </ul>
                     </div>
