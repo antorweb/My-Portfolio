@@ -6,7 +6,7 @@ const ServiceCommon = ({serH2 ,serLogo , serP }) => {
     <>
     
     
-    <div className='w-[350px] h-[270px] p-[30px] hover:border-b-2  border-[#009e66] duration-[.3s] bg-[#161616]'>
+    <div className='w-[380px] h-[270px] p-[30px] hover:border-b-2  border-[#009e66] duration-[.3s] bg-[#161616]'>
         <div>{serLogo}</div>
         <div>
             <h2 className='text-[20px] py-[20px] font-medium font-main text-[#F3F3F3]'>{serH2}</h2>

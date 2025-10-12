@@ -179,7 +179,7 @@ const About = () => {
                 />
                 <ServiceCommon
                   serLogo={<MdOutlineWeb className="text-5xl text-[#009e66]" />}
-                  serH2={"API Integration"}
+                  serH2={"API Integration"} serP={'API Integration is the process of connecting your authentication services, or third-party apps.'}
                 />
                 <ServiceCommon
                   serLogo={<GoBrowser className="text-5xl text-[#009e66]" />}
