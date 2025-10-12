@@ -13,6 +13,7 @@ const Banner = () => {
       {/* ----------- icons */}
       <div className="flex lg:flex-col absolute top-[92%] right-4 lg:top-[65%] lg:right-18  gap-4 z-10">
         <a
+        target="_black"
           className="w-8 h-8 bg-black text-white flex justify-center items-center rounded-full hover:bg-[#A53DFF] transition-colors"
           href="https://www.facebook.com/antor.web.dev"
           aria-label="Facebook"
@@ -20,6 +21,7 @@ const Banner = () => {
           <FaFacebookF />
         </a>
         <a
+        target="_black"
           className="w-8 h-8 bg-black text-white flex justify-center items-center rounded-full hover:bg-[#A53DFF] transition-colors"
           href="https://www.instagram.com/antor_web_dev/"
           aria-label="Instagram"
