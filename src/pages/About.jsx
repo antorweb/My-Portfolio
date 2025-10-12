@@ -189,7 +189,7 @@ const About = () => {
                   serLogo={
                     <MdDynamicFeed className="text-5xl text-[#009e66]" />
                   }
-                  serH2={"Building dynamic SPAs"}
+                  serH2={"Building dynamic SPAs"} 
                 />
               </div>
             </div>

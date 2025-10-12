@@ -1,7 +1,7 @@
 import React from 'react'
 import { MdOutlineWeb } from 'react-icons/md'
 
-const ServiceCommon = ({serH2 ,serLogo }) => {
+const ServiceCommon = ({serH2 ,serLogo , serP }) => {
   return (
     <>
     
@@ -10,7 +10,7 @@ const ServiceCommon = ({serH2 ,serLogo }) => {
         <div>{serLogo}</div>
         <div>
             <h2 className='text-[20px] py-[20px] font-medium font-main text-[#F3F3F3]'>{serH2}</h2>
-             <p className="text-[15px] mb-[17px] font-normal font-main leading-[27px] text-[#9F9F9F]">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+             <p className="text-[15px] mb-[17px] font-normal font-main leading-[27px] text-[#9F9F9F]">{serP}</p>
         </div>
 
     </div>
