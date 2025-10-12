@@ -183,13 +183,15 @@ const About = () => {
                 />
                 <ServiceCommon
                   serLogo={<GoBrowser className="text-5xl text-[#009e66]" />}
-                  serH2={"Cross-Browser Compatibility"}
+                  serH2={"Cross-Browser Compatibility"} serP={'Cross-Browser Compatibility refers to the ability of a website or  and operating systems.'}
                 />
                 <ServiceCommon
                   serLogo={
                     <MdDynamicFeed className="text-5xl text-[#009e66]" />
                   }
-                  serH2={"Building dynamic SPAs"} 
+                  serH2={"Building dynamic SPAs"} serP={'ChatGPT বলেছে:
+
+Building Dynamic Single Page Applications (SPAs) involves creating highly interactive, fast-loading web apps that load a single HTML page and dynamically update content via JavaScript — without reloading the entire page.'}
                 />
               </div>
             </div>
