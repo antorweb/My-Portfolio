@@ -175,7 +175,7 @@ const About = () => {
                 />
                 <ServiceCommon
                   serLogo={<GrOptimize className="text-5xl text-[#009e66]" />}
-                  serH2={"Frontend Optimization"}
+                  serH2={"Frontend Optimization"} serP={'Frontend Optimization is the process of , improve responsiveness, and deliver a smooth user experience.'}
                 />
                 <ServiceCommon
                   serLogo={<MdOutlineWeb className="text-5xl text-[#009e66]" />}
