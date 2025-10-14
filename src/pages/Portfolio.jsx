@@ -226,7 +226,7 @@ return (
      data-aos-easing="ease-in-sine" className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]">
     <h2 className="text-[21px] font-medium font-main text-[#fff]">Js-Whether</h2>
     <div className="w-[500px] pt-[20px] pb-[50px] max-md:w-full max-md:pb-[20px]">
-    <p className="text-[16px] font-normal font-main text-[#9F9F9F]"> this is javascript api fatch project where api fatch in anycronus  </p> </div>
+    <p className="text-[16px] font-normal font-main text-[#9F9F9F]"> This is a JavaScript API Fetch project where APIs are exposed asynchronously & real-time based APIs are made by exposing APIs.  </p> </div>
 
     <div className="w-[100px] flex justify-center py-[10px] px-[35px] hover:text-[#009e66] duration-[.4s] hover:bg-transparent text-base font-semibold font-main text-[#fff] bg-[#009e66] border-[#009e66] rounded-full border max-md:mx-auto">
       <Link to={'/'} >View</Link>
