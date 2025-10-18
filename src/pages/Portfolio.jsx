@@ -213,7 +213,7 @@ return (
   <div  data-aos="fade-left" className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]">
     <h2 className="text-[21px] font-medium font-main text-[#fff]">Js-Multiplication</h2>
     <div className="w-[500px] pt-[20px] pb-[50px] max-md:w-full max-md:pb-[20px]">
-    <p className="text-[16px] font-normal font-main text-[#9F9F9F]">this is a Javascript project when I use make a simple use </p> </div>
+    <p className="text-[16px] font-normal font-main text-[#9F9F9F]">This is a Javascript project when I use make a simple use for loop & fatch a fake api. </p> </div>
 
     <div className="w-[100px] flex justify-center py-[10px] px-[35px] hover:text-[#009e66] duration-[.4s] hover:bg-transparent text-base font-semibold font-main text-[#fff] bg-[#009e66] border-[#009e66] rounded-full border max-md:mx-auto">
       <Link to={'/'} >View</Link>
