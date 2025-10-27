@@ -19,16 +19,13 @@ const App = () => {
       <Route path='/contact' element={<Contact />} ></Route>
       <Route path='/portfolio' element={<Portfolio />} ></Route>
       <Route path='/service' element={<Service />} ></Route>
-
       </Route>
     </Route>
   ))
 
   return (
     <>
-
     <RouterProvider router={myRoute} />
-    
     </>
   )
 }
