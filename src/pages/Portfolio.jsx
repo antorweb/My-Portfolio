@@ -92,7 +92,7 @@ return (
   <div data-aos="zoom-out-left" className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]">
     <h2 className="text-[21px] font-medium font-main text-[#fff]">E-commerce Comfort </h2>
     <div className="w-[500px] pt-[20px] pb-[50px] max-md:w-full max-md:pb-[20px]">
-    <p className="text-[16px] font-normal font-main text-[#9F9F9F]"> This is E-commarce Website where using  </p> </div>
+    <p className="text-[16px] font-normal font-main text-[#9F9F9F]"> This is E-commarce Website where using react.js tailwind css & other some npm packages </p> </div>
 
     <div className="w-[100px] flex justify-center py-[10px] px-[35px] hover:text-[#009e66] duration-[.4s] hover:bg-transparent text-base font-semibold font-main text-[#fff] bg-[#009e66] border-[#009e66] rounded-full border max-md:mx-auto">
       <Link to={'/'} >View</Link>
@@ -126,7 +126,7 @@ return (
   <div data-aos="zoom-in-right" className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]">
     <h2 className="text-[21px] font-medium font-main text-[#fff]">E-commerce Hekto</h2>
     <div className="w-[500px] pt-[20px] pb-[50px] max-md:w-full max-md:pb-[20px]">
-    <p className="text-[16px] font-normal font-main text-red-500">Lorem iae ab suscipit labm?</p> </div>
+    <p className="text-[16px] font-normal font-main text-[#9F9F9F]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, doloremque aperiam placeat vitae ab suscipit labore consectetur natus soluta hic quo, nesciunt saepe praesentium corporis doloribus adipisci commodi harum?</p> </div>
 
     <div className="w-[100px] flex justify-center py-[10px] px-[35px] hover:text-[#009e66] duration-[.4s] hover:bg-transparent text-base font-semibold font-main text-[#fff] bg-[#009e66] border-[#009e66] rounded-full border max-md:mx-auto">
       <Link to={'/'} >View</Link>
