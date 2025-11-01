@@ -146,6 +146,8 @@ return (
 
 {/* ------------------ landing page */}
 
+<div>
+
   <div className="flex gap-[40px] my-[50px] justify-center max-lg:flex-col-reverse max-lg:items-center max-lg:gap-[20px]">
   <div data-aos="fade-right" className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]">
     <h2 className="text-[21px] font-medium font-main text-[#fff]">Landing M-cep</h2>
@@ -203,7 +205,12 @@ return (
   </div>
 </div>
 
+</div>
+
+
 {/* ---------- javascript */}
+
+<div>
 
   <div className="flex gap-[40px] my-[50px] justify-center max-lg:flex-col-reverse max-lg:items-center max-lg:gap-[20px]">
   <div data-aos="zoom-in-left" className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]">
@@ -246,6 +253,9 @@ return (
      data-aos-offset="300"
      data-aos-easing="ease-in-sine" className="w-[400px] h-[350px] bg-red-300 max-md:w-full max-md:h-[220px]"><img src={whether} alt="portfolio img" className="w-full h-full object-cover" /></div>
 </div>
+
+</div>
+
 
 {/* -------------- firebase */}
 
