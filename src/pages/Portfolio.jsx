@@ -21,8 +21,8 @@ import 'aos/dist/aos.css';
 const Portfolio = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1000, // Animation duration
-      once: true,     // Whether animation should happen only once
+      duration: 1000, 
+      once: true,    
     });
   }, []);
 
@@ -44,6 +44,7 @@ return (
                 <RxCross1 className="text-[30px] text-white" />
               </Link>{" "}
             </div>
+            
 
 {/* ----------- list items */}
       <div className="lg:mt-[100px] mt-[40px]">
@@ -58,6 +59,9 @@ return (
 <div className="mt-[100px] max-lg:mt-[50px]">
 
 {/* ----------ecommarce page */}
+
+<div>
+
 
   <div className="flex gap-[40px] justify-center max-lg:flex-col max-lg:items-center max-lg:gap-[20px]">
   <div data-aos="fade-right" className="w-[400px] h-[400px] overflow-hidden max-md:w-full max-md:h-[220px]"><img src={ec5} alt="portfolio img" className="w-full h-full object-cover" /></div>
@@ -101,6 +105,7 @@ return (
   </div>
 </div>
 
+
   <div className="flex gap-[40px] my-[50px]  justify-center max-lg:flex-col-reverse max-lg:items-center max-lg:gap-[20px]">
   <div data-aos="fade-right"
      data-aos-offset="300"
@@ -134,6 +139,10 @@ return (
 
   </div>
 </div>
+
+</div>
+
+
 
 {/* ------------------ landing page */}
 
