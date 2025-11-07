@@ -111,7 +111,7 @@ const Contact = () => {
                     Location
                   </h3>
                   <p className="text-[14px] font-normal font-main text-[#9F9F9F]">
-                    Gazipur sadar,Gazipur,Dhaka Bangladesh
+                    Gazipur Dhaka Bangladesh
                   </p>
                 </div>
               </div>
