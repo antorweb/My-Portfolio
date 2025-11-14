@@ -3,7 +3,7 @@ import CommonHead from "../components/common/CommonHead";
 import { RxCross1 } from "react-icons/rx";
 import { Link } from "react-router";
 import { SiBasicattentiontoken } from "react-icons/si";
-import banner5 from "../assets/images/banner5.png";
+import banner5 from "../assets/images/1760175761837-removebg-preview.png";
 import ServiceCommon from "../components/common/ServiceCommon";
 import { MdOutlineWeb } from "react-icons/md";
 import fnt1 from "../assets/images/bootstrap.png";
@@ -68,13 +68,15 @@ const About = () => {
               {/* ---------- images part */}
               <div className=" lg:flex mx-auto lg:mx-0 justify-center gap-[100px] items-center mt-[50px]  lg:mt-[180px]">
                 {/* ------------ left-side */}
-                <div className="w-[400px] h-[350px] bg-[#ffffffca] flex justify-center items-center relative">
-                  <img
-                    className=" absolute top-[-284px] left-[34px]"
-                    src={banner5}
-                    alt=""
-                  />
+
+                <div className="w-[400px] h-[400px]  relative bg-white rounded-[8px]">
+
+                <img className="w-[600px] h-[418px] absolute top-[-18px] left-0 " src={banner5} alt="about-img" />
+
                 </div>
+    
+
+        
 
                 {/* ----------- right-side */}
                 <div className="">
