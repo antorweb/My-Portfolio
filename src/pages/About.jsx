@@ -108,7 +108,7 @@ const About = () => {
                             Name:
                           </h3>
                           <p className="text-[15px] font-normal font-main text-[#9F9F9F]">
-                            Antor web-Dev
+                            Antor-Web_Dev
                           </p>
                         </div>
                         <div className="pt-[30px] lg:pt-0 flex  gap-[10px]">
@@ -146,7 +146,7 @@ const About = () => {
                   {/* -------------- button */}
                   <div className="mt-[20px] text-center lg:text-start">
                     <a
-                      href="/antor.pdf"
+                      href="/My_cv.pdf"
                       download
                       className=" py-[10px] px-[35px]  hover:text-[#009e66] duration-[.4s] hover:bg-transparent text-base font-semibold font-main text-[#fff] bg-[#009e66] border-[#009e66] rounded-full border "
                     >
@@ -225,16 +225,26 @@ const About = () => {
 
             <div
               data-aos="fade-up"
-              className=" lg:flex justify-center items-center gap-[40px]"
+              className=" "
             >
-              {/* ---------------- frontend skill */}
-              <div className=" lg:w-[500px] h-[600px] mt-[80px]  ">
-                <h2 className="w-[234px] ml-[60px] lg:ml-0 text-[20px] font-medium font-main text-[#F0F0F0] border-[#009e66] border-b pb-[5px]">
+
+              <div className="flex justify-between mt-[50px] gap-[500px]">
+                     <h2 className="w-[234px] ml-[60px] lg:ml-0 text-[20px] font-medium font-main text-[#F0F0F0] border-[#009e66] border-b pb-[5px]">
                   Frontend Development
                 </h2>
+                     <h2 className="w-[234px]  text-[20px] font-medium font-main text-[#F0F0F0] border-[#009e66] border-b pb-[5px]">
+                    Backend Development
+                  </h2>
+              </div>
+          
+          <div className="flex justify-between">
+
+              {/* ---------------- frontend skill */}
+              <div className=" w-[500px]  ">
+           
                 <div
                   data-aos="fade-right"
-                  className="flex mt-[30px] p-[15px] flex-wrap justify-center gap-[30px] bg-[#161616]"
+                  className="flex mt-[50px] p-[30px] flex-wrap justify-center gap-[30px] bg-[#161616]"
                 >
                   <div data-aos="flip-down" className="text-center ">
                     <img
@@ -242,9 +252,6 @@ const About = () => {
                       src={fnt11}
                       alt="logo"
                     />
-                    <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">
-                      Html5
-                    </p>
                   </div>
                   <div data-aos="flip-down" className="text-center ">
                     <img
@@ -252,9 +259,6 @@ const About = () => {
                       src={fnt2}
                       alt="logo"
                     />
-                    <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">
-                      Css3
-                    </p>
                   </div>
                   <div data-aos="flip-down" className="text-center ">
                     <img
@@ -262,9 +266,6 @@ const About = () => {
                       src={fnt13}
                       alt="logo"
                     />
-                    <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">
-                      Javascript
-                    </p>
                   </div>
 
                   <div data-aos="flip-down" className="text-center ">
@@ -273,9 +274,6 @@ const About = () => {
                       src={fnt1}
                       alt="logo"
                     />
-                    <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">
-                      Bootstrap
-                    </p>
                   </div>
                   <div data-aos="flip-left" className="text-center ">
                     <img
@@ -283,9 +281,6 @@ const About = () => {
                       src={fnt4}
                       alt="logo"
                     />
-                    <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">
-                      Tailwind Css
-                    </p>
                   </div>
 
                   <div data-aos="flip-left" className="text-center ">
@@ -294,9 +289,6 @@ const About = () => {
                       src={fnt3}
                       alt="logo"
                     />
-                    <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">
-                      Vercel
-                    </p>
                   </div>
 
                   <div data-aos="flip-left" className="text-center ">
@@ -305,9 +297,6 @@ const About = () => {
                       src={fnt5}
                       alt="logo"
                     />
-                    <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">
-                      React
-                    </p>
                   </div>
 
                   <div data-aos="flip-left" className="text-center ">
@@ -316,9 +305,6 @@ const About = () => {
                       src={fnt6}
                       alt="logo"
                     />
-                    <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">
-                      Node.js
-                    </p>
                   </div>
 
                   <div data-aos="flip-left" className="text-center ">
@@ -327,9 +313,6 @@ const About = () => {
                       src={fnt7}
                       alt="logo"
                     />
-                    <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">
-                      Next.js
-                    </p>
                   </div>
 
                   <div data-aos="flip-left" className="text-center ">
@@ -338,9 +321,6 @@ const About = () => {
                       src={fnt8}
                       alt="logo"
                     />
-                    <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">
-                      Git
-                    </p>
                   </div>
 
                   <div data-aos="flip-left" className="text-center ">
@@ -349,9 +329,6 @@ const About = () => {
                       src={fnt9}
                       alt="logo"
                     />
-                    <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">
-                      Github
-                    </p>
                   </div>
 
                   <div data-aos="flip-left" className="text-center ">
@@ -360,9 +337,6 @@ const About = () => {
                       src={fnt10}
                       alt="logo"
                     />
-                    <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">
-                      GitLab
-                    </p>
                   </div>
 
                   <div data-aos="flip-left" className="text-center ">
@@ -371,9 +345,6 @@ const About = () => {
                       src={fnt12}
                       alt="logo"
                     />
-                    <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">
-                      Netlify
-                    </p>
                   </div>
 
                   <div data-aos="flip-right" className="text-center ">
@@ -382,9 +353,6 @@ const About = () => {
                       src={fnt14}
                       alt="logo"
                     />
-                    <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">
-                      Saas
-                    </p>
                   </div>
 
                   <div data-aos="flip-up" className="text-center ">
@@ -393,9 +361,6 @@ const About = () => {
                       src={fnt15}
                       alt="logo"
                     />
-                    <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">
-                      Vite
-                    </p>
                   </div>
 
                   <div data-aos="flip-down" className="text-center ">
@@ -404,9 +369,6 @@ const About = () => {
                       src={fnt16}
                       alt="logo"
                     />
-                    <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">
-                      J-Query
-                    </p>
                   </div>
 
                   <div data-aos="flip-down" className="text-center ">
@@ -415,9 +377,6 @@ const About = () => {
                       src={fnt17}
                       alt="logo"
                     />
-                    <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">
-                      Redux
-                    </p>
                   </div>
 
                   <div data-aos="flip-down" className="text-center ">
@@ -426,9 +385,6 @@ const About = () => {
                       src={fnt18}
                       alt="logo"
                     />
-                    <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">
-                      Axios
-                    </p>
                   </div>
                   <div data-aos="flip-down" className="text-center ">
                     <img
@@ -436,9 +392,6 @@ const About = () => {
                       src={fnt20}
                       alt="logo"
                     />
-                    <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">
-                      Fatah Api
-                    </p>
                   </div>
 
                   <div data-aos="flip-down" className="text-center ">
@@ -447,9 +400,6 @@ const About = () => {
                       src={fnt21}
                       alt="logo"
                     />
-                    <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">
-                      Figma
-                    </p>
                   </div>
 
                   <div data-aos="flip-down" className="text-center ">
@@ -458,9 +408,6 @@ const About = () => {
                       src={fnt22}
                       alt="logo"
                     />
-                    <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">
-                      Json
-                    </p>
                   </div>
 
                   <div data-aos="flip-down" className="text-center ">
@@ -469,9 +416,6 @@ const About = () => {
                       src={fnt23}
                       alt="logo"
                     />
-                    <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">
-                      Npm Packages
-                    </p>
                   </div>
                   <div data-aos="flip-down" className="text-center ">
                     <img
@@ -479,34 +423,26 @@ const About = () => {
                       src={fnt24}
                       alt="logo"
                     />
-                    <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">
-                      Wordpress
-                    </p>
                   </div>
-                  <div data-aos="flip-down" className=" text-center flex justify-center flex-col">
+                  <div
+                    data-aos="flip-down"
+                    className=" text-center flex justify-center flex-col"
+                  >
                     <img
                       className="w-[60px] text-center"
                       src={fnt25}
                       alt="logo"
                     />
-                    <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">
-                      Elementor
-                    </p>
                   </div>
                 </div>
               </div>
 
               {/* ---------------- backend skill */}
-              <div className="w-[500px] h-[600px] mt-[400px] lg:mt-[80px]   gap-[30px] ">
-                <div className="flex ml-[60px] lg:justify-end mb-[30px]">
-                  {" "}
-                  <h2 className="w-[234px]  text-[20px] font-medium font-main text-[#F0F0F0] border-[#009e66] border-b pb-[5px]">
-                    Backend Development
-                  </h2>
-                </div>
+              <div className="w-[500px] mt-[400px] lg:mt-[50px]   gap-[30px] ">
+        
                 <div
                   data-aos="fade-left"
-                  className=" flex justify-center items-center gap-[30px] h-[610px] bg-[#161616]"
+                  className=" flex justify-center items-center gap-[30px] p-[30px] bg-[#161616]"
                 >
                   <div className=" pr-[136px] lg:pr-0 flex flex-col justify-center items-center">
                     <h2 className="text-[36px] font-bold font-main text-white">
@@ -518,6 +454,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
+          </div>
             </div>
             {/* ------------- service-part */}
             <div
