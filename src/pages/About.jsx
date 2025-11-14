@@ -66,17 +66,16 @@ const About = () => {
             </div>
             <div>
               {/* ---------- images part */}
-              <div className=" lg:flex mx-auto lg:mx-0 justify-center gap-[100px] items-center mt-[50px]  lg:mt-[180px]">
+              <div className=" lg:flex mx-auto lg:mx-0 justify-center gap-[100px] items-center mt-[50px]  lg:mt-[140px]">
                 {/* ------------ left-side */}
 
                 <div className="w-[400px] h-[400px]  relative bg-white rounded-[8px]">
-
-                <img className="w-[600px] h-[418px] absolute top-[-18px] left-0 " src={banner5} alt="about-img" />
-
+                  <img
+                    className="w-[600px] h-[418px] absolute top-[-18px] left-0 "
+                    src={banner5}
+                    alt="about-img"
+                  />
                 </div>
-    
-
-        
 
                 {/* ----------- right-side */}
                 <div className="">
@@ -160,7 +159,7 @@ const About = () => {
             </div>
             {/* ------------- div-cart */}
             <div data-aos="fade-up" className="mt-[100px] mb-[20px]">
-              <div className="pb-[40px] flex justify-center">
+              <div className="pb-[40px] text-center">
                 <CommonHead
                   commonh2={"My Services"}
                   commonp={"Services i offer to my clients"}
@@ -225,238 +224,231 @@ const About = () => {
 
             {/* --------------- skill part */}
 
-            <div
-              data-aos="fade-up"
-              className=" "
-            >
-
+            <div data-aos="fade-up" className=" ">
               <div className="flex justify-center mt-[50px] gap-[637px]">
-                     <h2 className="w-[234px] ml-[60px] lg:ml-0 text-[20px] font-medium font-main text-[#F0F0F0] border-[#009e66] border-b pb-[5px]">
+                <h2 className="w-[234px] ml-[60px] lg:ml-0 text-[20px] font-medium font-main text-[#F0F0F0] border-[#009e66] border-b pb-[5px]">
                   Frontend Development
                 </h2>
-                     <h2 className="w-[234px]  text-[20px] font-medium font-main text-[#F0F0F0] border-[#009e66] border-b pb-[5px]">
-                    Backend Development
-                  </h2>
+                <h2 className="w-[234px]  text-[20px] font-medium font-main text-[#F0F0F0] border-[#009e66] border-b pb-[5px]">
+                  Backend Development
+                </h2>
               </div>
-          
-          <div className="flex justify-center gap-[100px]">
 
-              {/* ---------------- frontend skill */}
-              <div className=" w-[500px]  ">
-           
-                <div
-                  data-aos="fade-right"
-                  className="flex mt-[50px] p-[30px] flex-wrap justify-center gap-[30px] bg-[#161616]"
-                >
-                  <div data-aos="flip-down" className="text-center ">
-                    <img
-                      className="w-[50px] text-center"
-                      src={fnt11}
-                      alt="logo"
-                    />
-                  </div>
-                  <div data-aos="flip-down" className="text-center ">
-                    <img
-                      className="w-[50px] text-center"
-                      src={fnt2}
-                      alt="logo"
-                    />
-                  </div>
-                  <div data-aos="flip-down" className="text-center ">
-                    <img
-                      className="w-[50px] text-center"
-                      src={fnt13}
-                      alt="logo"
-                    />
-                  </div>
-
-                  <div data-aos="flip-down" className="text-center ">
-                    <img
-                      className="w-[50px] text-center"
-                      src={fnt1}
-                      alt="logo"
-                    />
-                  </div>
-                  <div data-aos="flip-left" className="text-center ">
-                    <img
-                      className="w-[70px] text-center"
-                      src={fnt4}
-                      alt="logo"
-                    />
-                  </div>
-
-                  <div data-aos="flip-left" className="text-center ">
-                    <img
-                      className="w-[50px] text-center"
-                      src={fnt3}
-                      alt="logo"
-                    />
-                  </div>
-
-                  <div data-aos="flip-left" className="text-center ">
-                    <img
-                      className="w-[50px] text-center"
-                      src={fnt5}
-                      alt="logo"
-                    />
-                  </div>
-
-                  <div data-aos="flip-left" className="text-center ">
-                    <img
-                      className="w-[50px] text-center"
-                      src={fnt6}
-                      alt="logo"
-                    />
-                  </div>
-
-                  <div data-aos="flip-left" className="text-center ">
-                    <img
-                      className="w-[50px] text-center"
-                      src={fnt7}
-                      alt="logo"
-                    />
-                  </div>
-
-                  <div data-aos="flip-left" className="text-center ">
-                    <img
-                      className="w-[50px] text-center"
-                      src={fnt8}
-                      alt="logo"
-                    />
-                  </div>
-
-                  <div data-aos="flip-left" className="text-center ">
-                    <img
-                      className="w-[50px] text-center"
-                      src={fnt9}
-                      alt="logo"
-                    />
-                  </div>
-
-                  <div data-aos="flip-left" className="text-center ">
-                    <img
-                      className="w-[50px] text-center"
-                      src={fnt10}
-                      alt="logo"
-                    />
-                  </div>
-
-                  <div data-aos="flip-left" className="text-center ">
-                    <img
-                      className="w-[50px] text-center"
-                      src={fnt12}
-                      alt="logo"
-                    />
-                  </div>
-
-                  <div data-aos="flip-right" className="text-center ">
-                    <img
-                      className="w-[50px] text-center"
-                      src={fnt14}
-                      alt="logo"
-                    />
-                  </div>
-
-                  <div data-aos="flip-up" className="text-center ">
-                    <img
-                      className="w-[50px] text-center"
-                      src={fnt15}
-                      alt="logo"
-                    />
-                  </div>
-
-                  <div data-aos="flip-down" className="text-center ">
-                    <img
-                      className="w-[50px] text-center"
-                      src={fnt16}
-                      alt="logo"
-                    />
-                  </div>
-
-                  <div data-aos="flip-down" className="text-center ">
-                    <img
-                      className="w-[80px] text-center"
-                      src={fnt17}
-                      alt="logo"
-                    />
-                  </div>
-
-                  <div data-aos="flip-down" className="text-center ">
-                    <img
-                      className="w-[50px] text-center"
-                      src={fnt18}
-                      alt="logo"
-                    />
-                  </div>
-                  <div data-aos="flip-down" className="text-center ">
-                    <img
-                      className="w-[110px] text-center"
-                      src={fnt20}
-                      alt="logo"
-                    />
-                  </div>
-
-                  <div data-aos="flip-down" className="text-center ">
-                    <img
-                      className="w-[60px] text-center"
-                      src={fnt21}
-                      alt="logo"
-                    />
-                  </div>
-
-                  <div data-aos="flip-down" className="text-center ">
-                    <img
-                      className="w-[65px] text-center"
-                      src={fnt22}
-                      alt="logo"
-                    />
-                  </div>
-
-                  <div data-aos="flip-down" className="text-center ">
-                    <img
-                      className="w-[50px] text-center"
-                      src={fnt23}
-                      alt="logo"
-                    />
-                  </div>
-                  <div data-aos="flip-down" className="text-center ">
-                    <img
-                      className="w-[60px] text-center"
-                      src={fnt24}
-                      alt="logo"
-                    />
-                  </div>
+              <div className="flex justify-center gap-[100px]">
+                {/* ---------------- frontend skill */}
+                <div className=" w-[500px]  ">
                   <div
-                    data-aos="flip-down"
-                    className=" text-center flex justify-center flex-col"
+                    data-aos="fade-right"
+                    className="flex mt-[50px] p-[30px] flex-wrap justify-center gap-[30px] bg-[#161616]"
                   >
-                    <img
-                      className="w-[60px] text-center"
-                      src={fnt25}
-                      alt="logo"
-                    />
-                  </div>
-                </div>
-              </div>
+                    <div data-aos="flip-down" className="text-center ">
+                      <img
+                        className="w-[50px] text-center"
+                        src={fnt11}
+                        alt="logo"
+                      />
+                    </div>
+                    <div data-aos="flip-down" className="text-center ">
+                      <img
+                        className="w-[50px] text-center"
+                        src={fnt2}
+                        alt="logo"
+                      />
+                    </div>
+                    <div data-aos="flip-down" className="text-center ">
+                      <img
+                        className="w-[50px] text-center"
+                        src={fnt13}
+                        alt="logo"
+                      />
+                    </div>
 
-              {/* ---------------- backend skill */}
-              <div className="w-[500px] mt-[400px] lg:mt-[50px]   gap-[30px] ">
-        
-                <div
-                  data-aos="fade-left"
-                  className=" flex justify-center items-center gap-[30px] p-[30px] bg-[#161616]"
-                >
-                  <div className=" pr-[136px] lg:pr-0 flex flex-col justify-center items-center">
-                    <h2 className="text-[36px] font-bold font-main text-white">
-                      Learning
-                    </h2>
-                    <h2 className=" text-[20px] font-medium font-main text-[#F0F0F0] pb-[5px]">
-                      Backend Development with Node.js
-                    </h2>
+                    <div data-aos="flip-down" className="text-center ">
+                      <img
+                        className="w-[50px] text-center"
+                        src={fnt1}
+                        alt="logo"
+                      />
+                    </div>
+                    <div data-aos="flip-left" className="text-center ">
+                      <img
+                        className="w-[70px] text-center"
+                        src={fnt4}
+                        alt="logo"
+                      />
+                    </div>
+
+                    <div data-aos="flip-left" className="text-center ">
+                      <img
+                        className="w-[50px] text-center"
+                        src={fnt3}
+                        alt="logo"
+                      />
+                    </div>
+
+                    <div data-aos="flip-left" className="text-center ">
+                      <img
+                        className="w-[50px] text-center"
+                        src={fnt5}
+                        alt="logo"
+                      />
+                    </div>
+
+                    <div data-aos="flip-left" className="text-center ">
+                      <img
+                        className="w-[50px] text-center"
+                        src={fnt6}
+                        alt="logo"
+                      />
+                    </div>
+
+                    <div data-aos="flip-left" className="text-center ">
+                      <img
+                        className="w-[50px] text-center"
+                        src={fnt7}
+                        alt="logo"
+                      />
+                    </div>
+
+                    <div data-aos="flip-left" className="text-center ">
+                      <img
+                        className="w-[50px] text-center"
+                        src={fnt8}
+                        alt="logo"
+                      />
+                    </div>
+
+                    <div data-aos="flip-left" className="text-center ">
+                      <img
+                        className="w-[50px] text-center"
+                        src={fnt9}
+                        alt="logo"
+                      />
+                    </div>
+
+                    <div data-aos="flip-left" className="text-center ">
+                      <img
+                        className="w-[50px] text-center"
+                        src={fnt10}
+                        alt="logo"
+                      />
+                    </div>
+
+                    <div data-aos="flip-left" className="text-center ">
+                      <img
+                        className="w-[50px] text-center"
+                        src={fnt12}
+                        alt="logo"
+                      />
+                    </div>
+
+                    <div data-aos="flip-right" className="text-center ">
+                      <img
+                        className="w-[50px] text-center"
+                        src={fnt14}
+                        alt="logo"
+                      />
+                    </div>
+
+                    <div data-aos="flip-up" className="text-center ">
+                      <img
+                        className="w-[50px] text-center"
+                        src={fnt15}
+                        alt="logo"
+                      />
+                    </div>
+
+                    <div data-aos="flip-down" className="text-center ">
+                      <img
+                        className="w-[50px] text-center"
+                        src={fnt16}
+                        alt="logo"
+                      />
+                    </div>
+
+                    <div data-aos="flip-down" className="text-center ">
+                      <img
+                        className="w-[80px] text-center"
+                        src={fnt17}
+                        alt="logo"
+                      />
+                    </div>
+
+                    <div data-aos="flip-down" className="text-center ">
+                      <img
+                        className="w-[50px] text-center"
+                        src={fnt18}
+                        alt="logo"
+                      />
+                    </div>
+                    <div data-aos="flip-down" className="text-center ">
+                      <img
+                        className="w-[110px] text-center"
+                        src={fnt20}
+                        alt="logo"
+                      />
+                    </div>
+
+                    <div data-aos="flip-down" className="text-center ">
+                      <img
+                        className="w-[60px] text-center"
+                        src={fnt21}
+                        alt="logo"
+                      />
+                    </div>
+
+                    <div data-aos="flip-down" className="text-center ">
+                      <img
+                        className="w-[65px] text-center"
+                        src={fnt22}
+                        alt="logo"
+                      />
+                    </div>
+
+                    <div data-aos="flip-down" className="text-center ">
+                      <img
+                        className="w-[50px] text-center"
+                        src={fnt23}
+                        alt="logo"
+                      />
+                    </div>
+                    <div data-aos="flip-down" className="text-center ">
+                      <img
+                        className="w-[60px] text-center"
+                        src={fnt24}
+                        alt="logo"
+                      />
+                    </div>
+                    <div
+                      data-aos="flip-down"
+                      className=" text-center flex justify-center flex-col"
+                    >
+                      <img
+                        className="w-[60px] text-center"
+                        src={fnt25}
+                        alt="logo"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                {/* ---------------- backend skill */}
+                <div className="w-[500px] mt-[400px] lg:mt-[50px]   gap-[30px] ">
+                  <div
+                    data-aos="fade-left"
+                    className=" flex justify-center items-center gap-[30px] p-[30px] bg-[#161616]"
+                  >
+                    <div className=" pr-[136px] lg:pr-0 flex flex-col justify-center items-center">
+                      <h2 className="text-[36px] font-bold font-main text-white">
+                        Learning
+                      </h2>
+                      <h2 className=" text-[20px] font-medium font-main text-[#F0F0F0] pb-[5px]">
+                        Backend Development with Node.js
+                      </h2>
+                    </div>
                   </div>
                 </div>
               </div>
-          </div>
             </div>
             {/* ------------- service-part */}
             <div
