@@ -1,19 +1,9 @@
-import React, {  useState } from "react";
+import React from "react";
 import logo from "../../assets/images/remelogo.png";
 import { Link } from "react-router";
 
 
 const Navbar = () => {
-
-
-  const [isOpen, setIsOpen] = useState(false);
-
-
-  const toogleMenu = () =>{
-
-    setIsOpen(!isOpen)
-
-  }
 
 
 
@@ -59,7 +49,7 @@ const Navbar = () => {
             {/* --------------- navbar-items */}
             <div className="cursor-target">
               <ul className={`hidden md:flex gap-8  items-center navbar-menu ${isOpen ? "active" : ""}`}>
-                <li> onClick={toogleMenu}
+                <li> 
                   
                   <Link
                     to="/about"
@@ -69,7 +59,7 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  onClick={toogleMenu}
+                 
                   <Link
                     to="/portfolio"
                     className="text-[20px] font-normal font-main text-[#E6E6E6]"
@@ -77,8 +67,8 @@ const Navbar = () => {
                     Portfolio
                   </Link>
                 </li>
-                <li>
-                  onClick={toogleMenu}
+                <li >
+                 
                   <Link
                     to="/contact"
                     className="text-[20px] font-normal font-main text-[#E6E6E6]"
