@@ -228,7 +228,7 @@ const About = () => {
               className=" "
             >
 
-              <div className="flex justify-between mt-[50px] gap-[500px]">
+              <div className="flex justify-center mt-[50px] gap-[637px]">
                      <h2 className="w-[234px] ml-[60px] lg:ml-0 text-[20px] font-medium font-main text-[#F0F0F0] border-[#009e66] border-b pb-[5px]">
                   Frontend Development
                 </h2>
@@ -237,7 +237,7 @@ const About = () => {
                   </h2>
               </div>
           
-          <div className="flex justify-between">
+          <div className="flex justify-center gap-[100px]">
 
               {/* ---------------- frontend skill */}
               <div className=" w-[500px]  ">
