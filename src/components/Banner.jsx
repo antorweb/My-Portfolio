@@ -14,7 +14,7 @@ const Banner = () => {
         <a
         target="_black"
           className="w-8 h-8 bg-black text-white flex justify-center items-center rounded-full hover:bg-[#A53DFF] transition-colors"
-          href="https://www.facebook.com/antor.web.dev"
+          href="https://www.facebook.com/antorweb"
           aria-label="Facebook"
         >
           <FaFacebookF />
@@ -22,7 +22,7 @@ const Banner = () => {
         <a
         target="_black"
           className="w-8 h-8 bg-black text-white flex justify-center items-center rounded-full hover:bg-[#A53DFF] transition-colors"
-          href="https://www.instagram.com/antor_web_dev/"
+          href="https://www.instagram.com/antorwev/"
           aria-label="Instagram"
         >
           <FaInstagram />
@@ -30,7 +30,7 @@ const Banner = () => {
         <a
         target="_black"
           className="w-8 h-8 bg-black text-white flex justify-center items-center rounded-full hover:bg-[#A53DFF] transition-colors"
-          href="https://www.linkedin.com/in/antor94/"
+          href="https://www.linkedin.com/in/antorweb/"
           aria-label="LinkedIn"
         >
           <FaLinkedinIn />
@@ -38,7 +38,7 @@ const Banner = () => {
         <a
         target="_black"
           className="w-8 h-8 bg-black text-white flex justify-center items-center rounded-full hover:bg-[#A53DFF] transition-colors"
-          href="https://github.com/antor94"
+          href="https://github.com/antorweb"
           aria-label="Github"
         >
           <TbBrandGithub />
